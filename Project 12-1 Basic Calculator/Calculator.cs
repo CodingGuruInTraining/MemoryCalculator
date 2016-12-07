@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Project_14_1_Basic_Calculator
 {
     class Calculator
-    {
+    { 
         private decimal input;
         private List<decimal> inputs = new List<decimal>();
         private byte oper;      // 1 = ADD; 2 = SUBTRACT; 3 = MULTIPLY; 4 = DIVIDE
