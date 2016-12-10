@@ -19,7 +19,7 @@ namespace Project_14_1_Basic_Calculator
         }
         // Intantiates new memory calculator object
         MemoryCalculatorCl calc = new MemoryCalculatorCl();
-
+        
         private void ButtonClick(object sender, EventArgs e)
         {
             // Declares variables
@@ -185,6 +185,11 @@ namespace Project_14_1_Basic_Calculator
             //{
             //    button5.PerformClick();
             //}
+        }
+
+        private void MemCalc_Load(object sender, EventArgs e)
+        {
+            this.KeyPreview = true;
         }
     }
 }

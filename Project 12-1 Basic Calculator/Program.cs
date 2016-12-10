@@ -17,6 +17,7 @@ namespace Project_14_1_Basic_Calculator
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MemCalc());
+            
         }
     }
 }

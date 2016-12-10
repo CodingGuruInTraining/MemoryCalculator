@@ -425,6 +425,7 @@
             this.Controls.Add(this.txtDisplay);
             this.Name = "MemCalc";
             this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.MemCalc_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BasicCalc_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
